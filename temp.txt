@@ -1,0 +1,21 @@
+! Title: temp
+! Version: 2025-04-01
+! Description: none
+
+
+! new rules
+ㅡ
+
+
+! already added rules
+
+! quick fixes
+
+! experimental
+
+! passive
+@@||arca.live^$extension="Auto Simya"
+@@||dcinside.com$cookie=_ga
+text-compare.com#@#body:has-text(pierrotmalls@domain.com)
+
+! temp
