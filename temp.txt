@@ -1,9 +1,15 @@
 ! Title: temp
-! Version: 2025-04-01
+! Version: 2025-04-02
 ! Description: none
 
 
 ! new rules
+/?sentry_version=
+instiz.net##.hot_under
+m.news.nate.com##.active[class^='viewAppPop']
+topdaily.kr##.floating-button
+yna.co.kr##.sticky[class^='aside-box']
+zeta-ai.io##div[class]:has(> [role='presentation'])
 ㅡ
 
 
@@ -14,7 +20,6 @@
 ! experimental
 
 ! passive
-@@||arca.live^$extension="Auto Simya"
 @@||dcinside.com$cookie=_ga
 text-compare.com#@#body:has-text(pierrotmalls@domain.com)
 
