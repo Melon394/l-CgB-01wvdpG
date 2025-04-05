@@ -1,34 +1,22 @@
 ! Title: temp
-! Version: 2025-04-03
+! Version: 2025-04-05
 ! Description: none
 
 
 ! new rules
-/?sentry_version=
-arca.live##div[style*='z-index: 999999']:style(z-index: 9999 !important; opacity: 0.15 !important; right: 10px !important;)
-instiz.net##.hot_under
-lol.inven.co.kr#@#article > div[style].banner
-m.news.nate.com##.active[class^='viewAppPop']
-m.wowtv.co.kr##.container > div[style]
-m.wowtv.co.kr##[data^='banner']
-m.wowtv.co.kr##div.outerAd
-m.wowtv.co.kr##div[id*='Banner']
-topdaily.kr##.floating-button
-wowtv.co.kr##.wrap-BannerBox
-yna.co.kr##.sticky[class^='aside-box']
-zeta-ai.io##div[class]:has(> [role='presentation'])
+
 ㅡ
 
 
 ! already added rules
 
 ! quick fixes
-ruliweb.com#@%#//scriptlet('trusted-click-element', '.text_xlarge')
 
 ! experimental
+! @@||secure.gravatar.com/avatar/$domain=arca.live,stealth
+! @@||store.epicgames.com^$extension
 
 ! passive
 @@||dcinside.com$cookie=_ga
-text-compare.com#@#body:has-text(pierrotmalls@domain.com)
 
 ! temp
