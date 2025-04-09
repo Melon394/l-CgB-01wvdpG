@@ -1,5 +1,5 @@
 ! Title: temp
-! Version: 2025-04-08
+! Version: 2025-04-09
 ! Description: none
 
 
@@ -7,13 +7,6 @@
 /ads/*.gif
 /banner/*.gif
 @@||script.gmarket.co.kr/js/mobile/main/common/montelena.js
-kio.ac##div[forcemount]
-m.fmkorea.com##.dummy ~div +script +div +:not(:has(article))
-m.fmkorea.com##.fmWidgetStyle2019.bd_mobile.bd:matches-css(padding: /[0-9]{2,}/)
-m.fmkorea.com##.pli
-zeta-ai.io##main [id][style]
-||humor.galaxystorages.com^
-||go.ly^$all
 ㅡ
 
 
