@@ -1,13 +1,18 @@
 ! Title: temp
-! Version: 2025-04-09
+! Version: 2025-04-12
 ! Description: none
 
 
 ! new rules
 /ads/*.gif
 /banner/*.gif
-@@||script.gmarket.co.kr/js/mobile/main/common/montelena.js
+/bnr/*.gif
+instiz.net##.out_enter
+novelpia.com##.modal_background
+||porko.party^$all
 ㅡ
+@@||script.gmarket.co.kr/js/mobile/main/common/montelena.js
+yasyadong.cc##.top-ad-padding.row
 
 
 ! already added rules
@@ -17,6 +22,9 @@
 ! experimental
 ! @@||secure.gravatar.com/avatar/$domain=arca.live,stealth
 ! @@||store.epicgames.com^$extension
+! namu.wiki##div +div[class*=' '] > * +div :not(:has([href^='#r'])):has(div[class][style*='color'])
+! namu.wiki##div > div[class][style*='color']
+! namu.wiki##div > div[class][style*='color'] +div:upward(2):is(div[class*=' '])
 
 ! passive
 @@||dcinside.com$cookie=_ga
