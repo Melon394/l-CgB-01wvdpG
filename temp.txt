@@ -1,5 +1,5 @@
 ! Title: temp
-! Version: 2025-04-12
+! Version: 2025-04-12 (1)
 ! Description: none
 
 
@@ -19,7 +19,6 @@ mobile.gmarket.co.kr##.box__couponswiper-wrap
 novelpia.com##.modal_background
 ㅡ
 @@||m.ytn.co.kr^$extension='Disable AMP'
-~github.com,~google.*#%#document.addEventListener('DOMContentLoaded',()=>{for(let a of document.getElementsByTagName('a'))a.href=a.href.replace(/&amp[^&]*(?=&|$)/g,'');});
 
 
 ! already added rules
