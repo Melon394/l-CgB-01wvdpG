@@ -1,30 +1,16 @@
 ! Title: temp
-! Version: 2025-04-12 (1)
+! Version: 2025-04-13
 ! Description: none
 
 
 ! new rules
-/ads/*.gif
-/banner/*.gif
-/bnr/*.gif
-##[class*='ad-banner']
-instiz.net##.out_enter
-khan.co.kr##.ad-txt-artbtm
-khan.co.kr##[class^='banner-']
-m.gmarket.co.kr##.box__ad-banner
-m.gmarket.co.kr##.box__banner-promotion
-m.gmarket.co.kr##.link_circlefloating
-m.gmarket.co.kr##div.box__item-wrap:has([class$='-ad'])
-mobile.gmarket.co.kr##.box__couponswiper-wrap
-novelpia.com##.modal_background
+
 ㅡ
-@@||m.ytn.co.kr^$extension='Disable AMP'
 
 
 ! already added rules
 
 ! quick fixes
-khan.co.kr#@#[class^='ad']
 
 ! experimental
 ! @@||secure.gravatar.com/avatar/$domain=arca.live,stealth
