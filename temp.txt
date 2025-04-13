@@ -1,5 +1,5 @@
 ! Title: temp
-! Version: 2025-04-13
+! Version: 1.55+1
 ! Description: none
 
 
@@ -10,8 +10,13 @@
 ! already added rules
 
 ! quick fixes
+@@/^(greasy|sleazy)fork\.org/$extension="Text To link"
+@@/(book|mana|new)toki\d*\.(com|net|org)/$generichide,badfilter
 @@||ac-p*.namu.la^$stealth,important,badfilter
 @@||orbi.kr^$generichide
+[$domain=/^booktoki\d+.com/]#@#.go-top
+[$domain=/^manatoki\d+.net/]#@#.go-top
+[$domain=/^newtoki\d+.com/]#@#.go-top
 
 ! experimental
 ! @@||store.epicgames.com^$extension
