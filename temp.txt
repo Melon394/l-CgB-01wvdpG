@@ -4,25 +4,25 @@
 
 
 ! new rules
-
 ㅡ
 
 
 ! already added rules
 
 ! quick fixes
+@@||ac-p*.namu.la^$stealth,important,badfilter
+@@||orbi.kr^$generichide
 
 ! experimental
-! @@||secure.gravatar.com/avatar/$domain=arca.live,stealth
 ! @@||store.epicgames.com^$extension
 
 ! passive
 @@||dcinside.com$cookie=_ga
 
 ! temp
+@@||firebase.googleapis.com^$stealth,domain=arca.live
 @@||script.gmarket.co.kr/js/mobile/main/common/montelena.js
 toonkor.wiki##.banner
 yasyadong.cc##.top-ad-padding.row
 ㅡ
 start.klauncher.kr#%#//scriptlet('set-constant', 'detected', 'false')
-start.klauncher.kr$$script:has-text(detected)
