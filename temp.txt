@@ -1,5 +1,5 @@
 ! Title: temp
-! Version: 1.55+1
+! Version: 1.55+2
 ! Description: none
 
 
@@ -17,6 +17,9 @@
 [$domain=/^booktoki\d+.com/]#@#.go-top
 [$domain=/^manatoki\d+.net/]#@#.go-top
 [$domain=/^newtoki\d+.com/]#@#.go-top
+gelbooru.com###image:not(.fit-width):style(width: 120% !important; height: auto !important;)
+gelbooru.com#@%#//scriptlet('trusted-click-element', '#resize-link > [href="javascript:;"]', '', '400')
+gelbooru.com#%#//scriptlet('trusted-click-element', '#resize-link > [href="javascript:;"]', '', '600')
 
 ! experimental
 ! @@||store.epicgames.com^$extension
@@ -26,8 +29,4 @@
 
 ! temp
 @@||firebase.googleapis.com^$stealth,domain=arca.live
-@@||script.gmarket.co.kr/js/mobile/main/common/montelena.js
-toonkor.wiki##.banner
 yasyadong.cc##.top-ad-padding.row
-ㅡ
-start.klauncher.kr#%#//scriptlet('set-constant', 'detected', 'false')
