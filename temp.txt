@@ -1,10 +1,13 @@
 ! Title: temp
-! Version: 1.55+3
+! Version: 1.55+5
 ! Description: none
 
 
 ! new rules
+/AD/*.gif
 /popup/*.gif
+kio.ac##.ad-slot-parent:style(visibility: hidden !important;)
+kio.ac##main[class] > div.bg-blue-500
 ㅡ
 @@||arca.live/b/hotdeal^$extension="arca.live Reader Mode Improved"
 
@@ -23,6 +26,7 @@
 gelbooru.com###image:not(.fit-width):style(width: 120% !important; height: auto !important;)
 gelbooru.com#%#//scriptlet('trusted-click-element', '#resize-link > [href="javascript:;"]', '', '700')
 gelbooru.com#@%#//scriptlet('trusted-click-element', '#resize-link > [href="javascript:;"]', '', '400')
+||onelink.me/*toss*$doc,important,badfilter
 
 ! experimental
 ! @@||store.epicgames.com^$extension
