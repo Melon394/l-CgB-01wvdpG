@@ -1,32 +1,16 @@
 ! Title: temp
-! Version: 1.55+5
+! Version: 1.55+6
 ! Description: none
 
 
 ! new rules
-/AD/*.gif
-/popup/*.gif
-kio.ac##.ad-slot-parent:style(visibility: hidden !important;)
-kio.ac##main[class] > div.bg-blue-500
 ㅡ
-@@||arca.live/b/hotdeal^$extension="arca.live Reader Mode Improved"
 
 
 ! already added rules
 
 ! quick fixes
-@@/^(greasy|sleazy)fork\.org/$extension="Text To link"
-@@/(book|mana|new)toki\d*\.(com|net|org)/$generichide,badfilter
-@@||ac-p*.namu.la^$stealth,important,badfilter
 @@||cloudfront.net^$script,domain=postype.com
-@@||orbi.kr^$generichide
-[$domain=/^booktoki\d+.com/]#@#.go-top
-[$domain=/^manatoki\d+.net/]#@#.go-top
-[$domain=/^newtoki\d+.com/]#@#.go-top
-gelbooru.com###image:not(.fit-width):style(width: 120% !important; height: auto !important;)
-gelbooru.com#%#//scriptlet('trusted-click-element', '#resize-link > [href="javascript:;"]', '', '700')
-gelbooru.com#@%#//scriptlet('trusted-click-element', '#resize-link > [href="javascript:;"]', '', '400')
-||onelink.me/*toss*$doc,important,badfilter
 
 ! experimental
 ! @@||store.epicgames.com^$extension
