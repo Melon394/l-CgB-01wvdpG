@@ -1,23 +1,26 @@
 ! Title: temp
-! Version: 1.55+6
+! Version: 1.55+7
 ! Description: none
 
 
 ! new rules
+arca.live##.article-view p:has(.ion-android-archive)
+arca.live##.MuiGrid-item > h6
+m.11st.co.kr##div.l-grid:has(.c-coupon-list)
+m.11st.co.kr##div.l-grid:has(.c-donation)
+m.11st.co.kr##div.l-grid:has([data-ui-type$='Contents_ProductGrid_List'])
 ㅡ
 
 
-! already added rules
-
 ! quick fixes
+@@||11st.co.kr^$extension="PreventPageVisibility"
 @@||cloudfront.net^$script,domain=postype.com
-
-! experimental
-! @@||store.epicgames.com^$extension
+naver.com#@#body,html:style(overflow:auto!important)
 
 ! passive
 @@||dcinside.com$cookie=_ga
 
 ! temp
+! @@||store.epicgames.com^$extension
 @@||firebase.googleapis.com^$stealth,domain=arca.live
 yasyadong.cc##.top-ad-padding.row
