@@ -1,5 +1,5 @@
 ! Title: temp
-! Version: 1.55+7
+! Version: 1.56+0
 ! Description: none
 
 
@@ -9,11 +9,14 @@ arca.live##.MuiGrid-item > h6
 m.11st.co.kr##div.l-grid:has(.c-coupon-list)
 m.11st.co.kr##div.l-grid:has(.c-donation)
 m.11st.co.kr##div.l-grid:has([data-ui-type$='Contents_ProductGrid_List'])
+||s.click.aliexpress.com^$all
 ㅡ
+arca.live#%#//scriptlet('trusted-set-cookie-reload', 'imageViewerReaderMode', 'single')
 
 
 ! quick fixes
 @@||11st.co.kr^$extension="PreventPageVisibility"
+@@||ad.planbplus.co.kr^$important,app=com.deaguowl.fallcent
 @@||cloudfront.net^$script,domain=postype.com
 naver.com#@#body,html:style(overflow:auto!important)
 
