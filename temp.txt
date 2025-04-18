@@ -1,16 +1,19 @@
 ! Title: temp
-! Version: 1.56+1
+! Version: 1.56+2
 ! Description: none
 
 
 ! new rules
+##[alt='ad']
 ##[class*='anner']:has(iframe[src]:not([src*='captcha']):not([src*='embed'])):not(:has(img)):not(:has(p))
 ##div[data-tistory-react-app='NaverAd']
 arca.live##.article-view p:has(.ion-android-archive)
 arca.live##.MuiGrid-item > h6
+arca.live##[src^='/static/assets/images/spoiler-alert.png?']
 m.11st.co.kr##div.l-grid:has(.c-coupon-list)
 m.11st.co.kr##div.l-grid:has(.c-donation)
 m.11st.co.kr##div.l-grid:has([data-ui-type$='Contents_ProductGrid_List'])
+m.gmarket.co.kr##.box__inner
 ||cdn.jsdelivr.net/gh/abaeksite/aros_adsense_blocker@main/aros_adsense_blocker.js^$script,redirect=noopjs
 ||mistydivided.com^$all
 ||postincome.co.kr^$3p
@@ -25,6 +28,7 @@ arca.live#%#//scriptlet('trusted-set-cookie-reload', 'imageViewerReaderMode', 's
 @@||11st.co.kr^$extension="PreventPageVisibility"
 @@||ad.planbplus.co.kr^$important,app=com.deaguowl.fallcent
 @@||cloudfront.net^$script,domain=postype.com
+namu.wiki#@#div > div > div:has(> div:has([data-doc])):not(:has([id])):not(:has(li)):not(:has(td[style])):not(:has([alt^='파일'])):not(:has([href^='/w/'])):not(:has([width]))
 naver.com#@#body,html:style(overflow:auto!important)
 
 ! passive
@@ -34,3 +38,4 @@ naver.com#@#body,html:style(overflow:auto!important)
 ! @@||store.epicgames.com^$extension
 @@||firebase.googleapis.com^$stealth,domain=arca.live
 yasyadong.cc##.top-ad-padding.row
+[$url=||*toki.*^]###mobile_nav > .clearfix:style(display: flex !important; align-items: important;)
