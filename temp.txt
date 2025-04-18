@@ -1,14 +1,21 @@
 ! Title: temp
-! Version: 1.56+0
+! Version: 1.56+1
 ! Description: none
 
 
 ! new rules
+##[class*='anner']:has(iframe[src]:not([src*='captcha']):not([src*='embed'])):not(:has(img)):not(:has(p))
+##div[data-tistory-react-app='NaverAd']
 arca.live##.article-view p:has(.ion-android-archive)
 arca.live##.MuiGrid-item > h6
 m.11st.co.kr##div.l-grid:has(.c-coupon-list)
 m.11st.co.kr##div.l-grid:has(.c-donation)
 m.11st.co.kr##div.l-grid:has([data-ui-type$='Contents_ProductGrid_List'])
+||cdn.jsdelivr.net/gh/abaeksite/aros_adsense_blocker@main/aros_adsense_blocker.js^$script,redirect=noopjs
+||mistydivided.com^$all
+||postincome.co.kr^$3p
+||redditstatic.com/*/ad-event-tracker-*.js
+||redditstatic.com/*/w3-report-.*js$
 ||s.click.aliexpress.com^$all
 ㅡ
 arca.live#%#//scriptlet('trusted-set-cookie-reload', 'imageViewerReaderMode', 'single')
